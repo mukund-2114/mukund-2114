@@ -8,7 +8,7 @@
 
 </div>
 
-![Animated Header](https://raw.githubusercontent.com/mukund-2114/mukund-2114/main/animated-header.svg)
+![Animated Header](https://github.com/mukund-2114/mukund-2114/blob/main/asssets/animated-header.svg)
 
 <div align="center">
 
@@ -41,7 +41,7 @@ const mukund = {
 
 ## 🛠️ Tech Stack
 
-![Tech Stack Animation](https://raw.githubusercontent.com/mukund-2114/mukund-2114/main/tech-stack-animation.svg)
+![Tech Stack Animation](https://github.com/mukund-2114/mukund-2114/blob/main/asssets/tech-stack-animation.svg)
 
 ### **Detailed Breakdown**
 
@@ -89,7 +89,7 @@ const mukund = {
 
 ## 💼 Experience
 
-![Experience Timeline](https://raw.githubusercontent.com/mukund-2114/mukund-2114/main/experience-timeline.svg)
+![Experience Timeline](https://github.com/mukund-2114/mukund-2114/blob/main/asssets/experience-timeline.svg)
 
 <details open>
 <summary><b>📌 Full Stack Developer @ Community of Guardians</b> — <code>Mar 2025 – Present</code></summary>
