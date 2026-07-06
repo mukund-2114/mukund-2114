@@ -1,28 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0d1117,100:0d1117&height=300&section=header&text=Mukund%20Kapadia&fontSize=70&fontColor=c9d1d9&animation=fadeIn&fontAlignY=55&stroke=3fb950&strokeWidth=2&desc=Full-Stack%20%20%E2%80%A2%20%20System%20Architect%20%20%E2%80%A2%20%20Cloud%20Strategist&descAlignY=75&descSize=16&descColor=8b949e" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=42&duration=1&pause=99999&color=FFFFFF&background=0D1117&center=true&vCenter=true&width=860&height=120&lines=Mukund+Kapadia" alt="Mukund Kapadia" />
 
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=1&pause=99999&color=3FB950&background=0D1117&center=true&vCenter=true&width=860&height=40&lines=Full-Stack+Developer+%E2%80%A2+System+Architect+%E2%80%A2+Cloud+Strategist+%E2%80%A2+Toronto+%F0%9F%8D%81" alt="subtitle" />
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=600&color=3FB950&background=0D111700&center=true&vCenter=true&width=700&lines=%E2%96%B8+React.js+%7C+Next.js+%7C+TypeScript+%7C+Node.js;%E2%96%B8+AWS+%7C+Docker+%7C+CI%2FCD+%7C+PostgreSQL;%E2%96%B8+Shipping+production+systems+since+2022;%E2%96%B8+%22Automate+everything.+Ship+fast.+Break+nothing.%22)](https://git.io/typing-svg)
-
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2500&pause=500&color=58A6FF&background=0D111700&center=true&vCenter=true&width=700&lines=%E2%96%B8+React.js+%7C+Next.js+%7C+TypeScript+%7C+Node.js;%E2%96%B8+AWS+%7C+Docker+%7C+CI%2FCD+%7C+PostgreSQL;%E2%96%B8+Shipping+production+apps+since+2022;%E2%96%B8+%22Automate+everything.+Ship+fast.+Break+nothing.%22" alt="Typing" />
 
 <br/>
 
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/-mukundkapadia.com-0d1117?style=for-the-badge&logo=vercel&logoColor=3fb950&labelColor=0d1117)](https://mukundkapadia.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff&labelColor=0d1117)](https://linkedin.com/in/mukund1987)
-[![Email](https://img.shields.io/badge/-Email-0d1117?style=for-the-badge&logo=gmail&logoColor=f85149&labelColor=0d1117)](mailto:mdrkkapadiagmail.com)
-
-</div>
+[![Portfolio](https://img.shields.io/badge/-mukundkapadia.com-0d1117?style=for-the-badge&logo=vercel&logoColor=3fb950&labelColor=161b22)](https://mukundkapadia.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff&labelColor=161b22)](https://linkedin.com/in/mukund1987)
+[![Email](https://img.shields.io/badge/-Email-0d1117?style=for-the-badge&logo=gmail&logoColor=f85149&labelColor=161b22)](mailto:mdrkkapadiagmail.com)
 
 <br/>
 
----
+![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
+</div>
 
 <br/>
 
@@ -225,12 +219,10 @@ Vacation rental marketplace. Mapbox geolocation, advanced search filters, secure
 
 <br/>
 
+![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
 ![](https://komarev.com/ghpvc/?username=mukund-2114&color=3fb950&style=flat-square&label=profile+views)
 
 <sub>Toronto 🍁 &nbsp;·&nbsp; Always shipping &nbsp;·&nbsp; Always learning</sub>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=100&section=footer&fontColor=3fb950" width="100%" />
 
 </div>
