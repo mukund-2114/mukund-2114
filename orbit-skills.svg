@@ -1,0 +1,88 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coreGlow">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .lbl { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; fill: #c9d1d9; }
+      .title { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 800; fill: #58a6ff; }
+      .orbit-ring { fill: none; stroke: #30363d; stroke-width: 1; stroke-dasharray: 4 4; }
+    </style>
+  </defs>
+
+  <rect width="900" height="420" fill="#0d1117"/>
+  <text x="30" y="35" class="title">⚙️ Core Stack — Orbit View</text>
+
+  <!-- Orbit rings -->
+  <circle cx="450" cy="230" r="90" class="orbit-ring"/>
+  <circle cx="450" cy="230" r="150" class="orbit-ring"/>
+  <circle cx="450" cy="230" r="205" class="orbit-ring"/>
+
+  <!-- Core node -->
+  <circle cx="450" cy="230" r="55" fill="url(#coreGlow)" opacity="0.5"/>
+  <circle cx="450" cy="230" r="34" fill="#161b22" stroke="#3fb950" stroke-width="2" filter="url(#glow)"/>
+  <text x="450" y="226" text-anchor="middle" class="lbl" fill="#3fb950" font-size="12">MUKUND</text>
+  <text x="450" y="240" text-anchor="middle" class="lbl" fill="#8b949e" font-size="9">Full-Stack</text>
+
+  <!-- Orbit 1: inner ring, 3 nodes, fast rotation -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 230" to="360 450 230" dur="14s" repeatCount="indefinite"/>
+    <g transform="translate(540,230)">
+      <circle r="22" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+      <text text-anchor="middle" dy="4" class="lbl" font-size="10" fill="#58a6ff">⚛️</text>
+    </g>
+    <g transform="translate(405,152)">
+      <circle r="22" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+      <text text-anchor="middle" dy="4" class="lbl" font-size="10" fill="#58a6ff">TS</text>
+    </g>
+    <g transform="translate(405,308)">
+      <circle r="22" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+      <text text-anchor="middle" dy="4" class="lbl" font-size="10" fill="#58a6ff">🟢</text>
+    </g>
+  </g>
+
+  <!-- Counter-rotating labels for inner ring (keeps text upright) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 230" to="360 450 230" dur="14s" repeatCount="indefinite"/>
+    <text x="540" y="255" text-anchor="middle" class="lbl" font-size="10">React</text>
+    <text x="405" y="177" text-anchor="middle" class="lbl" font-size="10">TypeScript</text>
+    <text x="405" y="333" text-anchor="middle" class="lbl" font-size="10">Node.js</text>
+  </g>
+
+  <!-- Orbit 2: middle ring, 4 nodes -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 450 230" to="0 450 230" dur="20s" repeatCount="indefinite"/>
+    <g transform="translate(600,230)"><circle r="20" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="9" fill="#3fb950">▲</text></g>
+    <g transform="translate(450,80)"><circle r="20" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="9" fill="#3fb950">🐳</text></g>
+    <g transform="translate(300,230)"><circle r="20" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="9" fill="#3fb950">☁️</text></g>
+    <g transform="translate(450,380)"><circle r="20" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="9" fill="#3fb950">🐘</text></g>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 450 230" to="0 450 230" dur="20s" repeatCount="indefinite"/>
+    <text x="600" y="258" text-anchor="middle" class="lbl" font-size="10">Next.js</text>
+    <text x="450" y="108" text-anchor="middle" class="lbl" font-size="10">Docker</text>
+    <text x="300" y="258" text-anchor="middle" class="lbl" font-size="10">AWS</text>
+    <text x="450" y="408" text-anchor="middle" class="lbl" font-size="10">PostgreSQL</text>
+  </g>
+
+  <!-- Orbit 3: outer ring, 3 nodes -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 230" to="360 450 230" dur="28s" repeatCount="indefinite"/>
+    <g transform="translate(655,230)"><circle r="18" fill="#161b22" stroke="#f85149" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="8" fill="#f85149">⚙️</text></g>
+    <g transform="translate(347,60)"><circle r="18" fill="#161b22" stroke="#f85149" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="8" fill="#f85149">📊</text></g>
+    <g transform="translate(347,400)"><circle r="18" fill="#161b22" stroke="#f85149" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="8" fill="#f85149">🚀</text></g>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 230" to="360 450 230" dur="28s" repeatCount="indefinite"/>
+    <text x="655" y="256" text-anchor="middle" class="lbl" font-size="9">CI/CD</text>
+    <text x="347" y="86" text-anchor="middle" class="lbl" font-size="9">GraphQL</text>
+    <text x="347" y="426" text-anchor="middle" class="lbl" font-size="9">Cloudflare</text>
+  </g>
+</svg>

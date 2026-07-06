@@ -1,0 +1,120 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#3fb950" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3fb950">
+        <animate attributeName="offset" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#58a6ff">
+        <animate attributeName="offset" values="0.5;1.5;0.5" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#3fb950">
+        <animate attributeName="offset" values="1;2;1" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="dotGlow">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="260" fill="url(#bgGrad)"/>
+
+  <!-- Animated wave layers -->
+  <path fill="url(#waveGrad1)">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M0,200 C250,170 750,230 1000,200 L1000,260 L0,260 Z;
+              M0,210 C250,240 750,180 1000,215 L1000,260 L0,260 Z;
+              M0,200 C250,170 750,230 1000,200 L1000,260 L0,260 Z"/>
+  </path>
+  <path fill="url(#waveGrad2)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,220 C300,190 700,245 1000,215 L1000,260 L0,260 Z;
+              M0,230 C300,255 700,195 1000,235 L1000,260 L0,260 Z;
+              M0,220 C300,190 700,245 1000,215 L1000,260 L0,260 Z"/>
+  </path>
+
+  <!-- Floating particles -->
+  <circle cx="120" cy="60" r="3" fill="#3fb950">
+    <animate attributeName="cy" values="60;40;60" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="850" cy="80" r="2.5" fill="#58a6ff">
+    <animate attributeName="cy" values="80;55;80" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="920" cy="150" r="2" fill="#3fb950">
+    <animate attributeName="cy" values="150;125;150" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="60" cy="160" r="2.5" fill="#58a6ff">
+    <animate attributeName="cy" values="160;135;160" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Glow orb pulse behind text -->
+  <circle cx="500" cy="110" r="180" fill="url(#dotGlow)" opacity="0.15">
+    <animate attributeName="r" values="160;200;160" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main title -->
+  <text x="500" y="100" font-family="'JetBrains Mono', monospace" font-size="52" font-weight="800"
+        text-anchor="middle" fill="url(#textGrad)" filter="url(#softGlow)">
+    MUKUND KAPADIA
+  </text>
+
+  <!-- Subtitle with typewriter reveal -->
+  <text x="500" y="140" font-family="'JetBrains Mono', monospace" font-size="18"
+        text-anchor="middle" fill="#8b949e">
+    Full-Stack Developer &#8226; System Architect &#8226; Cloud Strategist
+    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.3s" fill="freeze"/>
+  </text>
+
+  <!-- Underline accent that grows -->
+  <rect x="500" y="160" width="0" height="3" fill="#3fb950" rx="2">
+    <animate attributeName="width" values="0;220" dur="1.5s" begin="0.5s" fill="freeze"/>
+    <animate attributeName="x" values="500;390" dur="1.5s" begin="0.5s" fill="freeze"/>
+  </rect>
+
+  <!-- Tagline -->
+  <text x="500" y="195" font-family="'JetBrains Mono', monospace" font-size="14"
+        text-anchor="middle" fill="#58a6ff" opacity="0">
+    🍁 Toronto &#8226; Shipping production systems since 2022
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="1.2s" fill="freeze"/>
+  </text>
+
+  <!-- Bottom status bar -->
+  <circle cx="420" cy="225" r="4" fill="#3fb950">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="435" y="230" font-family="'JetBrains Mono', monospace" font-size="12" fill="#8b949e">
+    open to opportunities
+  </text>
+</svg>
