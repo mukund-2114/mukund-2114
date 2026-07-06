@@ -143,16 +143,7 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td valign="top" width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&count_private=true&include_all_commits=true" width="100%" alt="GitHub Stats"/>
-</td>
-<td valign="top" width="50%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6" width="100%" alt="Top Languages"/>
-</td>
-</tr>
-</table>
+
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mukund-2114&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e)
 
