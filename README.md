@@ -1,117 +1,165 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:6E40C9,100:00D4FF&height=200&section=header&text=Mukund%20Kapadia&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20System%20Architect%20%7C%20Cloud%20Strategist&descAlignY=58&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,30:0d1117,60:161b22,100:21262d&height=1&section=header" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%7C+2%2B+Years+Experience;React.js+%7C+Next.js+%7C+TypeScript+%7C+Node.js;Building+scalable+apps+from+UI+to+AWS;%22If+I+do+it+twice%2C+I+automate+it.%22)](https://git.io/typing-svg)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-mukundkapadia.com-6E40C9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mukundkapadia.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mukund1987-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mukund1987)
-[![Email](https://img.shields.io/badge/Email-mdrkkpaadia%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mdrkkapadiagmail.com)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=200&text=Mukund%20Kapadia&fontSize=52&fontColor=e6edf3&fontAlignY=45&desc=Full-Stack%20Developer%20%E2%80%A2%20System%20Architect%20%E2%80%A2%20Cloud%20Strategist&descAlignY=68&descSize=15&descColor=7ee787" width="100%" />
 
 </div>
 
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=7EE787&center=true&vCenter=true&multiline=false&width=600&lines=React.js+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Node.js;Shipping+production+apps+since+2022;From+clean+UI+to+AWS+infrastructure;%22Automate+everything.+Ship+fast.+Break+nothing.%22)](https://git.io/typing-svg)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/%F0%9F%8C%90%20Portfolio-mukundkapadia.com-161b22?style=flat-square&labelColor=0d1117&color=238636&logoColor=7ee787)](https://mukundkapadia.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/%F0%9F%94%97%20LinkedIn-mukund1987-161b22?style=flat-square&labelColor=0d1117&color=1f6feb)](https://linkedin.com/in/mukund1987)
+&nbsp;
+[![Email](https://img.shields.io/badge/%F0%9F%93%A7%20Email-mdrkkapadiagmail.com-161b22?style=flat-square&labelColor=0d1117&color=da3633)](mailto:mdrkkapadiagmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/%F0%9F%90%99%20GitHub-mukund--2114-161b22?style=flat-square&labelColor=0d1117&color=6e7681)](https://github.com/mukund-2114)
+
+</div>
+
+<br/>
+
 ---
 
-## `> whoami`
-
 ```tsx
-const DEVELOPER = new Person();
-DEVELOPER.name     = "Mukund Kapadia";
-DEVELOPER.location = "Toronto, Ontario 🍁";
-DEVELOPER.role     = ["Full Stack Developer", "System Architect", "Cloud Strategist"];
-DEVELOPER.focus    = "React.js + Node.js → AWS | CI/CD | Performance Optimization";
-DEVELOPER.mantra   = "If I do it more than twice, I automate it.";
-// 🚀 Ready to build the future?
+// mukund.config.ts
+
+const engineer = {
+  name:     "Mukund Kapadia",
+  based:    "Toronto, Ontario 🍁",
+  roles:    ["Full-Stack Developer", "System Architect", "Cloud Strategist"],
+  stack:    ["React", "Next.js", "TypeScript", "Node.js", "AWS", "Docker"],
+  currently: "Building production systems @ Community of Guardians",
+  mantra:   "Automate everything. Ship fast. Break nothing.",
+  openTo:   true, // ✅ open to new opportunities
+} satisfies Developer;
 ```
 
 ---
 
-## `> ls ./tech-stack`
+<br/>
 
-### Frontend
-![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+## 🛠️ Tech Stack
 
-### Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+**Frontend**
 
-### Cloud, DevOps & AI
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=e6edf3)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![React Native](https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
+![Redux](https://img.shields.io/badge/Redux-0d1117?style=flat-square&logo=redux&logoColor=764ABC)
 
----
+**Backend & Data**
 
-## `> cat experience.log`
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=6DA55F)
+![Express](https://img.shields.io/badge/Express-0d1117?style=flat-square&logo=express&logoColor=e6edf3)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1)
+![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248)
+![GraphQL](https://img.shields.io/badge/GraphQL-0d1117?style=flat-square&logo=graphql&logoColor=E10098)
+![Prisma](https://img.shields.io/badge/Prisma-0d1117?style=flat-square&logo=prisma&logoColor=e6edf3)
 
-**🟣 Full Stack Developer** @ [Community of Guardians](https://github.com/mukund-2114) *(Mar 2025 – Present | Remote, Toronto)*
-- ⬇️ Slashed infra costs by migrating to **Cloudflare R2 & Pages**, eliminating egress fees
-- ⚡ Architected a **3-stage content moderation pipeline** resolving most safety violations locally before hitting cloud APIs
-- 🚀 Built end-to-end **CI/CD with Docker** for a team of 8 — consistent shipping, zero credential exposure
-- 📈 Cut data fetch latency **40%** via cursor-based pagination + React Query caching
-- 🏗️ Designed **server-driven UI architecture** — layout updates via API, no redeployment needed
+**Cloud & DevOps**
 
-**🟢 React Developer** @ Brainy Beam Infotech *(Oct 2022 – Jan 2024 | Ahmedabad, India)*
-- 📦 Shipped **10 production web apps** in React.js + Node.js across e-commerce & education sectors
-- 🏁 Mentored **100+ students** on modern JS frameworks & Git workflows
-- 📱 Modernized legacy UIs into **responsive mobile-first design systems**
-- 🧱 Contributed to a shared **atomic design component library** accelerating dev cycles
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-0d1117?style=flat-square&logo=githubactions&logoColor=2088FF)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-0d1117?style=flat-square&logo=cloudflare&logoColor=F6821F)
 
 ---
 
-## `> cat projects.md`
+<br/>
 
-| Project | Stack | Highlights |
-|---|---|---|
-| 🔍 **EasyApi** | Next.js, TypeScript, Node.js, AWS | Visual API builder — define schemas, generate mock REST endpoints instantly |
-| 🐾 **PawfectMatch** | React Native, Redux, Firebase | Cross-platform pet adoption app with real-time messaging & swipe matching |
-| 🏨 **Luxereserve** | React.js, Node.js, MongoDB, Stripe | Vacation rental marketplace with Mapbox geo + secure Stripe booking |
-| 🌍 **Orrery Explorer** | Three.js, NASA APIs | 3D interactive visualization of planetary orbits (NASA Space Apps) |
-| 🛡️ **Community of Guardians** | React, Node.js, AWS | SDG-based persona platform with AI moderation pipeline |
+## 💼 Experience
 
----
+**Full Stack Developer** &nbsp;`Mar 2025 – Present` &nbsp;→&nbsp; **Community of Guardians** *(Remote, Toronto)*
 
-## `> cat stats.sh`
+> Architecting and shipping full-stack production features for a real-time community platform.
 
-<div align="center">
+- ⤵️ Eliminated egress fees by migrating infra to **Cloudflare R2 + Pages** — build times under 3 min
+- 🧠 Built a **3-stage AI content moderation pipeline** — resolves most violations locally before cloud escalation
+- 🐳 Architected end-to-end **CI/CD + Dockerized environments** for a team of 8, zero credential exposure
+- ⚡ Reduced data fetch latency by **40%** via cursor-based pagination + React Query caching
+- 🏗️ Designed **server-driven UI** — layout & config changes via API, zero redeploys
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=6E40C9&text_color=ffffff"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=ffffff"/>
+<br/>
 
-</div>
+**React Developer** &nbsp;`Oct 2022 – Jan 2024` &nbsp;→&nbsp; **Brainy Beam Infotech** *(Ahmedabad, India)*
 
-<div align="center">
+> Delivered scalable frontend products and grew junior talent across a fast-moving team.
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=mukund-2114&theme=tokyonight&hide_border=true&background=0D1117&ring=6E40C9&fire=00D4FF&currStreakLabel=00D4FF)](https://git.io/streak-stats)
-
-</div>
+- 📦 Shipped **10 production-grade web apps** in React.js + Node.js — e-commerce & education sectors
+- 🏁 Mentored **100+ students** on modern JS, React, and Git — bridging academic to industry
+- 📱 Rebuilt legacy UIs into **responsive mobile-first design systems**
+- 🧱 Built shared **atomic design component library**, accelerating team development cycles
 
 ---
 
-## `> cat education.txt`
+<br/>
 
-| Degree | School | GPA | Period |
+## 🚀 Projects
+
+| &nbsp; | Project | Stack | What it does |
 |---|---|---|---|
-| 📱 Mobile Application Development | Centennial College, Toronto | 4.4 / 4.5 | Sep 2024 – Aug 2025 |
-| 💻 Software Engineering Technician | Centennial College, Toronto | 4.27 / 4.5 | Jan 2024 – Aug 2024 |
+| 🔍 | **[EasyApi](https://github.com/mukund-2114)** | Next.js · TypeScript · AWS | Visual API builder — define schemas, instantly generate mock REST endpoints |
+| 🐾 | **[PawfectMatch](https://github.com/mukund-2114)** | React Native · Redux · Firebase | Cross-platform pet adoption app with real-time messaging + swipe UI |
+| 🏨 | **[Luxereserve](https://github.com/mukund-2114)** | React · Node.js · MongoDB · Stripe | Vacation rental marketplace with Mapbox + secure Stripe checkout |
+| 🌍 | **[Orrery Explorer](https://github.com/mukund-2114)** | Three.js · NASA APIs | 3D interactive planetary orbit visualizer — NASA Space Apps Challenge |
+| 🛡️ | **[Community of Guardians](https://github.com/mukund-2114)** | React · Node.js · AWS | SDG persona platform with real-time feed + AI moderation pipeline |
 
 ---
 
+<br/>
+
+## 📊 GitHub Stats
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:6E40C9,100:0D1117&height=100&section=footer" width="100%" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&hide_border=true&bg_color=0d1117&title_color=7ee787&icon_color=58a6ff&text_color=8b949e&count_private=true&include_all_commits=true" />
+&nbsp;&nbsp;
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=8b949e&langs_count=6" />
 
-![Profile Views](https://komarev.com/ghpvc/?username=mukund-2114&color=6E40C9&style=flat-square&label=Profile+Views)
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=mukund-2114&theme=github-dark-blue&hide_border=true&background=0d1117&ring=7ee787&fire=58a6ff&currStreakLabel=7ee787&sideLabels=8b949e&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+<br/>
+
+## 🎓 Education
+
+| Program | Institution | GPA | Period |
+|---|---|---|---|
+| 📱 Mobile Application Development | Centennial College, Toronto | **4.4 / 4.5** | Sep 2024 – Aug 2025 |
+| 💻 Software Engineering Technician | Centennial College, Toronto | **4.27 / 4.5** | Jan 2024 – Aug 2024 |
+
+---
+
+<br/>
+
+<div align="center">
+
+<sub>Built with ❤️ in Toronto &nbsp;·&nbsp; Always shipping &nbsp;·&nbsp; Always learning</sub>
+
+<br/>
+
+![Visitors](https://komarev.com/ghpvc/?username=mukund-2114&color=238636&style=flat-square&label=profile+views)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:21262d,50:161b22,100:0d1117&height=80&section=footer" width="100%" />
 
 </div>
