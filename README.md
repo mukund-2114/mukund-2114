@@ -47,7 +47,16 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&count_private=true&include_all_commits=true&rank_icon=github)&nbsp;&nbsp;![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6)
+<table>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&count_private=true&include_all_commits=true" height="165" alt="GitHub Stats"/>
+</td>
+<td>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6" height="165" alt="Top Languages"/>
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -67,7 +76,7 @@
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=mukund-2114&theme=onedark&no-frame=true&row=1&column=6&margin-w=10)
+<img src="https://github-profile-trophy.vercel.app/?username=mukund-2114&theme=onedark&no-frame=true&row=1&column=7&margin-w=8" alt="GitHub Trophies" width="100%"/>
 
 </div>
 
