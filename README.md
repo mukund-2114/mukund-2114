@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,30:0d1117,60:161b22,100:21262d&height=1&section=header" width="100%" />
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=200&text=Mukund%20Kapadia&fontSize=52&fontColor=e6edf3&fontAlignY=45&desc=Full-Stack%20Developer%20%E2%80%A2%20System%20Architect%20%E2%80%A2%20Cloud%20Strategist&descAlignY=68&descSize=15&descColor=7ee787" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0d1117,100:0d1117&height=300&section=header&text=Mukund%20Kapadia&fontSize=70&fontColor=c9d1d9&animation=fadeIn&fontAlignY=55&stroke=3fb950&strokeWidth=2&desc=Full-Stack%20%20%E2%80%A2%20%20System%20Architect%20%20%E2%80%A2%20%20Cloud%20Strategist&descAlignY=75&descSize=16&descColor=8b949e" width="100%" />
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=7EE787&center=true&vCenter=true&multiline=false&width=600&lines=React.js+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Node.js;Shipping+production+apps+since+2022;From+clean+UI+to+AWS+infrastructure;%22Automate+everything.+Ship+fast.+Break+nothing.%22)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=600&color=3FB950&background=0D111700&center=true&vCenter=true&width=700&lines=%E2%96%B8+React.js+%7C+Next.js+%7C+TypeScript+%7C+Node.js;%E2%96%B8+AWS+%7C+Docker+%7C+CI%2FCD+%7C+PostgreSQL;%E2%96%B8+Shipping+production+systems+since+2022;%E2%96%B8+%22Automate+everything.+Ship+fast.+Break+nothing.%22)](https://git.io/typing-svg)
 
 </div>
 
@@ -16,58 +14,68 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/%F0%9F%8C%90%20Portfolio-mukundkapadia.com-161b22?style=flat-square&labelColor=0d1117&color=238636&logoColor=7ee787)](https://mukundkapadia.com)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/%F0%9F%94%97%20LinkedIn-mukund1987-161b22?style=flat-square&labelColor=0d1117&color=1f6feb)](https://linkedin.com/in/mukund1987)
-&nbsp;
-[![Email](https://img.shields.io/badge/%F0%9F%93%A7%20Email-mdrkkapadiagmail.com-161b22?style=flat-square&labelColor=0d1117&color=da3633)](mailto:mdrkkapadiagmail.com)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/%F0%9F%90%99%20GitHub-mukund--2114-161b22?style=flat-square&labelColor=0d1117&color=6e7681)](https://github.com/mukund-2114)
+[![Portfolio](https://img.shields.io/badge/-mukundkapadia.com-0d1117?style=for-the-badge&logo=vercel&logoColor=3fb950&labelColor=0d1117)](https://mukundkapadia.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff&labelColor=0d1117)](https://linkedin.com/in/mukund1987)
+[![Email](https://img.shields.io/badge/-Email-0d1117?style=for-the-badge&logo=gmail&logoColor=f85149&labelColor=0d1117)](mailto:mdrkkapadiagmail.com)
 
 </div>
 
 <br/>
 
 ---
+
+<br/>
 
 ```tsx
-// mukund.config.ts
+// 📌 mukund.config.ts — last updated: 2026
 
-const engineer = {
-  name:     "Mukund Kapadia",
-  based:    "Toronto, Ontario 🍁",
-  roles:    ["Full-Stack Developer", "System Architect", "Cloud Strategist"],
-  stack:    ["React", "Next.js", "TypeScript", "Node.js", "AWS", "Docker"],
-  currently: "Building production systems @ Community of Guardians",
-  mantra:   "Automate everything. Ship fast. Break nothing.",
-  openTo:   true, // ✅ open to new opportunities
-} satisfies Developer;
+const engineer: Developer = {
+  name:      "Mukund Kapadia",
+  location:  "Toronto, Ontario 🍁",
+  roles:     ["Full-Stack Developer", "System Architect", "Cloud Strategist"],
+  stack:     ["React", "Next.js", "TypeScript", "Node.js", "AWS", "Docker"],
+  building:  "Production platform @ Community of Guardians",
+  mantra:    "Automate everything. Ship fast. Break nothing.",
+  available: true,  // ✔️ open to opportunities
+};
 ```
+
+<br/>
 
 ---
 
 <br/>
 
-## 🛠️ Tech Stack
+## 🛠️ &nbsp;Tech Stack
+
+<table>
+<tr>
+<td valign="top" width="33%">
 
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=e6edf3)
+![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=ffffff)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![React Native](https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
 ![Redux](https://img.shields.io/badge/Redux-0d1117?style=flat-square&logo=redux&logoColor=764ABC)
 
+</td>
+<td valign="top" width="33%">
+
 **Backend & Data**
 
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=6DA55F)
-![Express](https://img.shields.io/badge/Express-0d1117?style=flat-square&logo=express&logoColor=e6edf3)
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=3fb950)
+![Express](https://img.shields.io/badge/Express-0d1117?style=flat-square&logo=express&logoColor=ffffff)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1)
 ![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248)
 ![GraphQL](https://img.shields.io/badge/GraphQL-0d1117?style=flat-square&logo=graphql&logoColor=E10098)
-![Prisma](https://img.shields.io/badge/Prisma-0d1117?style=flat-square&logo=prisma&logoColor=e6edf3)
+![Prisma](https://img.shields.io/badge/Prisma-0d1117?style=flat-square&logo=prisma&logoColor=ffffff)
+
+</td>
+<td valign="top" width="33%">
 
 **Cloud & DevOps**
 
@@ -75,91 +83,154 @@ const engineer = {
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
 ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-0d1117?style=flat-square&logo=githubactions&logoColor=2088FF)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-0d1117?style=flat-square&logo=cloudflare&logoColor=F6821F)
+![MinIO](https://img.shields.io/badge/MinIO-0d1117?style=flat-square&logo=minio&logoColor=C72E49)
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
 <br/>
 
-## 💼 Experience
+## 💼 &nbsp;Experience
 
-**Full Stack Developer** &nbsp;`Mar 2025 – Present` &nbsp;→&nbsp; **Community of Guardians** *(Remote, Toronto)*
+<table>
+<tr>
+<td>
 
-> Architecting and shipping full-stack production features for a real-time community platform.
+**● &nbsp;Full Stack Developer** &nbsp;&nbsp;`Mar 2025 – Present`
 
-- ⤵️ Eliminated egress fees by migrating infra to **Cloudflare R2 + Pages** — build times under 3 min
-- 🧠 Built a **3-stage AI content moderation pipeline** — resolves most violations locally before cloud escalation
-- 🐳 Architected end-to-end **CI/CD + Dockerized environments** for a team of 8, zero credential exposure
-- ⚡ Reduced data fetch latency by **40%** via cursor-based pagination + React Query caching
-- 🏗️ Designed **server-driven UI** — layout & config changes via API, zero redeploys
+**Community of Guardians** &nbsp;·· Remote, Toronto
+
+- Eliminated egress fees migrating infra to **Cloudflare R2 + Pages** — builds under 3 min
+- Architected a **3-stage AI moderation pipeline** — resolves violations locally before cloud escalation
+- Built end-to-end **CI/CD + Docker** for a team of 8 with zero credential exposure
+- Reduced data fetch latency **40%** via cursor-based pagination + React Query caching
+- Designed **server-driven UI architecture** — layout updates via API, no redeploys
+
+</td>
+</tr>
+<tr>
+<td>
+
+**○ &nbsp;React Developer** &nbsp;&nbsp;`Oct 2022 – Jan 2024`
+
+**Brainy Beam Infotech** &nbsp;·· Ahmedabad, India
+
+- Shipped **10 production web apps** across e-commerce & education sectors
+- Mentored **100+ students** in modern React, JS, and Git workflows
+- Modernized legacy UIs into **responsive mobile-first design systems**
+- Co-built a shared **atomic design component library** accelerating all dev cycles
+
+</td>
+</tr>
+</table>
 
 <br/>
-
-**React Developer** &nbsp;`Oct 2022 – Jan 2024` &nbsp;→&nbsp; **Brainy Beam Infotech** *(Ahmedabad, India)*
-
-> Delivered scalable frontend products and grew junior talent across a fast-moving team.
-
-- 📦 Shipped **10 production-grade web apps** in React.js + Node.js — e-commerce & education sectors
-- 🏁 Mentored **100+ students** on modern JS, React, and Git — bridging academic to industry
-- 📱 Rebuilt legacy UIs into **responsive mobile-first design systems**
-- 🧱 Built shared **atomic design component library**, accelerating team development cycles
 
 ---
 
 <br/>
 
-## 🚀 Projects
+## 🚀 &nbsp;Projects
 
-| &nbsp; | Project | Stack | What it does |
-|---|---|---|---|
-| 🔍 | **[EasyApi](https://github.com/mukund-2114)** | Next.js · TypeScript · AWS | Visual API builder — define schemas, instantly generate mock REST endpoints |
-| 🐾 | **[PawfectMatch](https://github.com/mukund-2114)** | React Native · Redux · Firebase | Cross-platform pet adoption app with real-time messaging + swipe UI |
-| 🏨 | **[Luxereserve](https://github.com/mukund-2114)** | React · Node.js · MongoDB · Stripe | Vacation rental marketplace with Mapbox + secure Stripe checkout |
-| 🌍 | **[Orrery Explorer](https://github.com/mukund-2114)** | Three.js · NASA APIs | 3D interactive planetary orbit visualizer — NASA Space Apps Challenge |
-| 🛡️ | **[Community of Guardians](https://github.com/mukund-2114)** | React · Node.js · AWS | SDG persona platform with real-time feed + AI moderation pipeline |
+<table>
+<tr>
+<td width="50%">
+
+### 🔍 EasyApi
+`Next.js` `TypeScript` `Node.js` `AWS`
+
+Visual REST API builder — define schemas, instantly generate and test mock endpoints. Real-time validation with React Context.
+
+</td>
+<td width="50%">
+
+### 🐾 PawfectMatch
+`React Native` `Redux` `Firebase`
+
+Cross-platform pet adoption app. Swipe-based matching, real-time Firebase messaging, push notifications.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🏨 Luxereserve
+`React.js` `Node.js` `MongoDB` `Stripe`
+
+Vacation rental marketplace. Mapbox geolocation, advanced search filters, secure Stripe checkout.
+
+</td>
+<td width="50%">
+
+### 🌍 Orrery Explorer
+`Three.js` `NASA APIs`
+
+3D interactive planetary orbit visualizer built for the NASA Space Apps Challenge.
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
 <br/>
 
-## 📊 GitHub Stats
+## 📊 &nbsp;Stats
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&hide_border=true&bg_color=0d1117&title_color=7ee787&icon_color=58a6ff&text_color=8b949e&count_private=true&include_all_commits=true" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=8b949e&langs_count=6" />
+<img src="https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=58a6ff&text_color=8b949e&count_private=true&include_all_commits=true" height="165" />
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=8b949e&langs_count=6" height="165" />
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=mukund-2114&theme=github-dark-blue&hide_border=true&background=0d1117&ring=7ee787&fire=58a6ff&currStreakLabel=7ee787&sideLabels=8b949e&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3)](https://git.io/streak-stats)
+<img src="https://streak-stats.demolab.com?user=mukund-2114&theme=github-dark-blue&hide_border=true&background=0d1117&ring=3fb950&fire=58a6ff&currStreakLabel=3fb950&sideLabels=8b949e&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
 
 </div>
 
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mukund-2114&bg_color=0d1117&color=3fb950&line=3fb950&point=58a6ff&area=true&hide_border=true&area_color=3fb95020" width="95%" />
+
+</div>
+
+<br/>
+
 ---
 
 <br/>
 
-## 🎓 Education
+## 🎓 &nbsp;Education
 
-| Program | Institution | GPA | Period |
-|---|---|---|---|
-| 📱 Mobile Application Development | Centennial College, Toronto | **4.4 / 4.5** | Sep 2024 – Aug 2025 |
-| 💻 Software Engineering Technician | Centennial College, Toronto | **4.27 / 4.5** | Jan 2024 – Aug 2024 |
-
----
+| Program | Institution | GPA |
+|---|---|---|
+| 📱 Mobile Application Development | Centennial College, Toronto | **4.4 / 4.5** |
+| 💻 Software Engineering Technician | Centennial College, Toronto | **4.27 / 4.5** |
 
 <br/>
+
+---
 
 <div align="center">
 
-<sub>Built with ❤️ in Toronto &nbsp;·&nbsp; Always shipping &nbsp;·&nbsp; Always learning</sub>
+<br/>
+
+![](https://komarev.com/ghpvc/?username=mukund-2114&color=3fb950&style=flat-square&label=profile+views)
+
+<sub>Toronto 🍁 &nbsp;·&nbsp; Always shipping &nbsp;·&nbsp; Always learning</sub>
 
 <br/>
 
-![Visitors](https://komarev.com/ghpvc/?username=mukund-2114&color=238636&style=flat-square&label=profile+views)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:21262d,50:161b22,100:0d1117&height=80&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=100&section=footer&fontColor=3fb950" width="100%" />
 
 </div>
