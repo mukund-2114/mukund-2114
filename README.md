@@ -1,8 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:6E40C9,100:00D4FF&height=200&section=header&text=Mukund%20Kapadia&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Automation%20Engineer%20%7C%20Based%20in%20Toronto%20%F0%9F%87%A8%F0%9F%87%A6&descAlignY=58&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:6E40C9,100:00D4FF&height=200&section=header&text=Mukund%20Kapadia&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20System%20Architect%20%7C%20Cloud%20Strategist&descAlignY=58&descSize=16" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Building+things+that+automate+the+boring;Full-Stack+%7C+React+%7C+Node.js+%7C+Next.js;Turning+ideas+into+deployed+products;APIs%2C+Bots+%26+Everything+in+Between)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%7C+2%2B+Years+Experience;React.js+%7C+Next.js+%7C+TypeScript+%7C+Node.js;Building+scalable+apps+from+UI+to+AWS;%22If+I+do+it+twice%2C+I+automate+it.%22)](https://git.io/typing-svg)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-mukundkapadia.com-6E40C9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mukundkapadia.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mukund1987-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mukund1987)
+[![Email](https://img.shields.io/badge/Email-mdrkkpaadia%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mdrkkapadiagmail.com)
 
 </div>
 
@@ -10,15 +14,14 @@
 
 ## `> whoami`
 
-```bash
-$ cat about.txt
-
-Name     : Mukund Kapadia
-Location : Toronto, Ontario 🍁
-Role     : Full-Stack Developer & Automation Engineer
-Status   : Building cool things at night ☕
-Focus    : Web Apps | Workflow Automation | API Integration
-Mantra   : "If I do it more than twice, I automate it."
+```tsx
+const DEVELOPER = new Person();
+DEVELOPER.name     = "Mukund Kapadia";
+DEVELOPER.location = "Toronto, Ontario 🍁";
+DEVELOPER.role     = ["Full Stack Developer", "System Architect", "Cloud Strategist"];
+DEVELOPER.focus    = "React.js + Node.js → AWS | CI/CD | Performance Optimization";
+DEVELOPER.mantra   = "If I do it more than twice, I automate it.";
+// 🚀 Ready to build the future?
 ```
 
 ---
@@ -26,33 +29,56 @@ Mantra   : "If I do it more than twice, I automate it."
 ## `> ls ./tech-stack`
 
 ### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
-### Backend & Automation
+### Backend & Database
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 
-### DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+### Cloud, DevOps & AI
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ---
 
-## `> cat currently_building.md`
+## `> cat experience.log`
 
-| Project | Stack | Status |
+**🟣 Full Stack Developer** @ [Community of Guardians](https://github.com/mukund-2114) *(Mar 2025 – Present | Remote, Toronto)*
+- ⬇️ Slashed infra costs by migrating to **Cloudflare R2 & Pages**, eliminating egress fees
+- ⚡ Architected a **3-stage content moderation pipeline** resolving most safety violations locally before hitting cloud APIs
+- 🚀 Built end-to-end **CI/CD with Docker** for a team of 8 — consistent shipping, zero credential exposure
+- 📈 Cut data fetch latency **40%** via cursor-based pagination + React Query caching
+- 🏗️ Designed **server-driven UI architecture** — layout updates via API, no redeployment needed
+
+**🟢 React Developer** @ Brainy Beam Infotech *(Oct 2022 – Jan 2024 | Ahmedabad, India)*
+- 📦 Shipped **10 production web apps** in React.js + Node.js across e-commerce & education sectors
+- 🏁 Mentored **100+ students** on modern JS frameworks & Git workflows
+- 📱 Modernized legacy UIs into **responsive mobile-first design systems**
+- 🧱 Contributed to a shared **atomic design component library** accelerating dev cycles
+
+---
+
+## `> cat projects.md`
+
+| Project | Stack | Highlights |
 |---|---|---|
-| 🤖 Job Application Automation Bot | n8n + Node.js + LinkedIn API | 🟢 Active |
-| 💬 Social Console App | React + JavaScript | 🟢 Active |
-| 📊 Trading Indicator Dashboard | Python + Technical Analysis | 🔧 Building |
-| 🧠 AI-Powered Resume Generator | LaTeX + LLM APIs | 🔧 Building |
+| 🔍 **EasyApi** | Next.js, TypeScript, Node.js, AWS | Visual API builder — define schemas, generate mock REST endpoints instantly |
+| 🐾 **PawfectMatch** | React Native, Redux, Firebase | Cross-platform pet adoption app with real-time messaging & swipe matching |
+| 🏨 **Luxereserve** | React.js, Node.js, MongoDB, Stripe | Vacation rental marketplace with Mapbox geo + secure Stripe booking |
+| 🌍 **Orrery Explorer** | Three.js, NASA APIs | 3D interactive visualization of planetary orbits (NASA Space Apps) |
+| 🛡️ **Community of Guardians** | React, Node.js, AWS | SDG-based persona platform with AI moderation pipeline |
 
 ---
 
@@ -73,15 +99,12 @@ Mantra   : "If I do it more than twice, I automate it."
 
 ---
 
-## `> cat connect.txt`
+## `> cat education.txt`
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mukund-kapadia)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mukund-2114)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukund.kapadia2114@gmail.com)
-
-</div>
+| Degree | School | GPA | Period |
+|---|---|---|---|
+| 📱 Mobile Application Development | Centennial College, Toronto | 4.4 / 4.5 | Sep 2024 – Aug 2025 |
+| 💻 Software Engineering Technician | Centennial College, Toronto | 4.27 / 4.5 | Jan 2024 – Aug 2024 |
 
 ---
 
