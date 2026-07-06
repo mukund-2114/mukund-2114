@@ -187,7 +187,7 @@ const mukund = {
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=mukund-2114&theme=github_dark&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=mukund-2114&theme=algolia&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" alt="GitHub Trophies"/>
 
 </div>
 
