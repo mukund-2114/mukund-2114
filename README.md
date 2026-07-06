@@ -27,15 +27,106 @@
 
 <div align="center">
 
-**Languages & Frameworks**
-
-[![Skills](https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,nodejs,express,graphql&perline=9)](https://skillicons.dev)
-
-<br/>
-
-**Databases & Cloud & Tools**
-
-[![Skills](https://skillicons.dev/icons?i=postgres,mongodb,prisma,firebase,aws,docker,gcp,githubactions,vercel,cloudflare,git,vscode,figma&perline=9)](https://skillicons.dev)
+<table>
+<tr>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React"/>
+    <br/><sub><b>React</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js"/>
+    <br/><sub><b>Next.js</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript"/>
+    <br/><sub><b>TypeScript</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript"/>
+    <br/><sub><b>JavaScript</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind"/>
+    <br/><sub><b>Tailwind</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=redux" width="48" height="48" alt="Redux"/>
+    <br/><sub><b>Redux</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js"/>
+    <br/><sub><b>Node.js</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express"/>
+    <br/><sub><b>Express</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" alt="GraphQL"/>
+    <br/><sub><b>GraphQL</b></sub>
+  </td>
+</tr>
+<tr>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL"/>
+    <br/><sub><b>PostgreSQL</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB"/>
+    <br/><sub><b>MongoDB</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=prisma" width="48" height="48" alt="Prisma"/>
+    <br/><sub><b>Prisma</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase"/>
+    <br/><sub><b>Firebase</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS"/>
+    <br/><sub><b>AWS</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker"/>
+    <br/><sub><b>Docker</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions"/>
+    <br/><sub><b>GH Actions</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel"/>
+    <br/><sub><b>Vercel</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" alt="Cloudflare"/>
+    <br/><sub><b>Cloudflare</b></sub>
+  </td>
+</tr>
+<tr>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="Google Cloud"/>
+    <br/><sub><b>GCP</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git"/>
+    <br/><sub><b>Git</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code"/>
+    <br/><sub><b>VS Code</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma"/>
+    <br/><sub><b>Figma</b></sub>
+  </td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux"/>
+    <br/><sub><b>Linux</b></sub>
+  </td>
+</tr>
+</table>
 
 </div>
 
@@ -47,36 +138,11 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&count_private=true&include_all_commits=true" height="165" alt="GitHub Stats"/>
-</td>
-<td>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6" height="165" alt="Top Languages"/>
-</td>
-</tr>
-</table>
-
-<br/>
-
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mukund-2114&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e)
 
 <br/>
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mukund-2114&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true&area_color=1f6feb20&title_color=58a6ff)
-
-</div>
-
-<br/>
-
----
-
-## Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=mukund-2114&theme=onedark&no-frame=true&row=1&column=7&margin-w=8" alt="GitHub Trophies" width="100%"/>
 
 </div>
 
@@ -98,15 +164,6 @@
 
 <br/>
 
----
-
 <div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-mukundkapadia.com-0969da?style=for-the-badge&logo=vercel&logoColor=white)](https://mukundkapadia.com)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mukund_Kapadia-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mukund1987)
-
-<br/><br/>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161f2e,100:0d1117&height=80&section=footer" width="100%"/>
-
 </div>
