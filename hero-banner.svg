@@ -1,132 +1,148 @@
-<svg width="1000" height="250" viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background: deep navy/slate -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#0f1923"/>
-      <stop offset="100%" stop-color="#0d1117"/>
-    </linearGradient>
-
     <!-- Subtle grid -->
-    <pattern id="grid" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
-      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#1c2a3a" stroke-width="0.5"/>
+    <pattern id="grid" x="0" y="0" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#161b22" stroke-width="0.8"/>
     </pattern>
 
-    <!-- Name gradient: slate blue to indigo -->
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e6edf3"/>
-      <stop offset="50%" stop-color="#58a6ff"/>
-      <stop offset="100%" stop-color="#e6edf3"/>
-    </linearGradient>
-
-    <!-- Accent line gradient -->
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#1f6feb"/>
-      <stop offset="70%" stop-color="#388bfd"/>
-      <stop offset="100%" stop-color="#388bfd" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- Subtle glow for name -->
-    <filter id="nameGlow" x="-10%" y="-50%" width="120%" height="200%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-
-    <!-- Top edge gradient -->
-    <linearGradient id="topEdge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#1f6feb" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#388bfd" stop-opacity="0.8"/>
-      <stop offset="80%" stop-color="#1f6feb" stop-opacity="0.6"/>
+    <!-- Top accent line gradient -->
+    <linearGradient id="topLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1f6feb" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#1f6feb" stop-opacity="0.7"/>
+      <stop offset="50%"  stop-color="#388bfd" stop-opacity="1"/>
+      <stop offset="75%"  stop-color="#1f6feb" stop-opacity="0.7"/>
       <stop offset="100%" stop-color="#1f6feb" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Radial glow behind center -->
-    <radialGradient id="centerGlow" cx="50%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.08"/>
+    <!-- Name gradient: light to blue to light -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#c9d1d9"/>
+      <stop offset="40%"  stop-color="#79c0ff"/>
+      <stop offset="60%"  stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#c9d1d9"/>
+    </linearGradient>
+
+    <!-- Shimmer sweep (userSpaceOnUse so we can animate x1/x2 in absolute px) -->
+    <linearGradient id="shimmer" gradientUnits="userSpaceOnUse"
+                    x1="-400" y1="0" x2="-150" y2="0">
+      <stop offset="0%"   stop-color="white" stop-opacity="0"/>
+      <stop offset="42%"  stop-color="white" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="white" stop-opacity="0.55"/>
+      <stop offset="58%"  stop-color="white" stop-opacity="0"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+      <animate attributeName="x1" values="-400;1100;-400" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+      <animate attributeName="x2" values="-150;1350;-150" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+    </linearGradient>
+
+    <!-- Spotlight glow (large soft ellipse that sweeps) -->
+    <radialGradient id="spotInner" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#1f6feb" stop-opacity="0.18"/>
+      <stop offset="55%"  stop-color="#1f6feb" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Fade mask for subtle particles -->
-    <radialGradient id="particleFade" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="white" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="white" stop-opacity="0"/>
-    </radialGradient>
+    <!-- Underline gradient -->
+    <linearGradient id="underline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1f6feb" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#1f6feb"/>
+      <stop offset="70%"  stop-color="#388bfd"/>
+      <stop offset="100%" stop-color="#388bfd" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Name text soft glow -->
+    <filter id="glow" x="-15%" y="-80%" width="130%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <!-- Base -->
-  <rect width="1000" height="250" fill="url(#bg)"/>
-  <rect width="1000" height="250" fill="url(#grid)"/>
-  <rect width="1000" height="250" fill="url(#centerGlow)"/>
+  <!-- Base dark background -->
+  <rect width="1000" height="220" fill="#0d1117"/>
+
+  <!-- Grid overlay -->
+  <rect width="1000" height="220" fill="url(#grid)"/>
+
+  <!-- ── SPOTLIGHT: large soft glow ellipse sweeping left → right ── -->
+  <ellipse cx="500" cy="110" rx="420" ry="140" fill="url(#spotInner)">
+    <animate attributeName="cx"
+             values="50;950;50"
+             dur="8s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.45 0.05 0.55 0.95"/>
+    <animate attributeName="opacity"
+             values="0.7;1;0.7"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Tighter bright core of spotlight -->
+  <ellipse cx="500" cy="110" rx="220" ry="70" fill="#1f6feb" opacity="0.05">
+    <animate attributeName="cx"
+             values="50;950;50"
+             dur="8s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keySplines="0.45 0.05 0.55 0.95"/>
+  </ellipse>
 
   <!-- Top accent line -->
-  <rect x="0" y="0" width="1000" height="2" fill="url(#topEdge)"/>
+  <rect x="0" y="0" width="1000" height="2" fill="url(#topLine)"/>
 
-  <!-- Subtle horizontal dividers -->
-  <line x1="80" y1="195" x2="920" y2="195" stroke="#21262d" stroke-width="1"/>
-
-  <!-- Corner brackets — minimal, professional -->
-  <g stroke="#30363d" stroke-width="1.2" fill="none">
-    <path d="M 24 32 L 24 18 L 38 18"/>
-    <path d="M 976 32 L 976 18 L 962 18"/>
-    <path d="M 24 218 L 24 232 L 38 232"/>
-    <path d="M 976 218 L 976 232 L 962 232"/>
+  <!-- Minimal corner brackets -->
+  <g stroke="#21262d" stroke-width="1.2" fill="none">
+    <path d="M 26 30 L 26 16 L 40 16"/>
+    <path d="M 974 30 L 974 16 L 960 16"/>
+    <path d="M 26 190 L 26 204 L 40 204"/>
+    <path d="M 974 190 L 974 204 L 960 204"/>
   </g>
 
-  <!-- Very subtle floating dots — small, low opacity, NO glow -->
-  <circle cx="90" cy="55" r="1.2" fill="#388bfd" opacity="0.3">
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="910" cy="70" r="1" fill="#388bfd" opacity="0.25">
-    <animate attributeName="opacity" values="0.25;0.5;0.25" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="150" cy="190" r="1" fill="#58a6ff" opacity="0.2">
-    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="850" cy="175" r="1.2" fill="#58a6ff" opacity="0.2">
-    <animate attributeName="opacity" values="0.2;0.45;0.2" dur="5.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="500" cy="30" r="1" fill="#388bfd" opacity="0.2">
-    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="8s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Flanking accent dashes -->
+  <line x1="195" y1="103" x2="285" y2="103" stroke="#1f6feb" stroke-width="0.8" opacity="0.45"/>
+  <line x1="715" y1="103" x2="805" y2="103" stroke="#1f6feb" stroke-width="0.8" opacity="0.45"/>
 
-  <!-- Small dash marks left/right of name — decorative only -->
-  <line x1="230" y1="108" x2="310" y2="108" stroke="#1f6feb" stroke-width="1" opacity="0.5"/>
-  <line x1="690" y1="108" x2="770" y2="108" stroke="#1f6feb" stroke-width="1" opacity="0.5"/>
-
-  <!-- Main name -->
-  <text x="500" y="118" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', sans-serif"
-        font-size="52" font-weight="700" letter-spacing="4"
-        text-anchor="middle" fill="url(#nameGrad)" filter="url(#nameGlow)">
+  <!-- ── NAME — base layer ── -->
+  <text x="500" y="112"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="52" font-weight="700" letter-spacing="5"
+        text-anchor="middle"
+        fill="url(#nameGrad)"
+        filter="url(#glow)">
     MUKUND KAPADIA
-    <animate attributeName="opacity" values="0;1" dur="0.6s" fill="freeze"/>
+  </text>
+
+  <!-- ── NAME — shimmer overlay layer ── -->
+  <text x="500" y="112"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="52" font-weight="700" letter-spacing="5"
+        text-anchor="middle"
+        fill="url(#shimmer)"
+        opacity="0.35">
+    MUKUND KAPADIA
   </text>
 
   <!-- Subtitle -->
-  <text x="500" y="152" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', sans-serif"
-        font-size="15" font-weight="400" letter-spacing="2"
-        text-anchor="middle" fill="#8b949e">
+  <text x="500" y="147"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="14" font-weight="400" letter-spacing="2"
+        text-anchor="middle" fill="#6e7681">
     Full-Stack Engineer  ·  System Architect  ·  Cloud Strategist
-    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.3s" fill="freeze"/>
   </text>
 
-  <!-- Accent underline that grows from center -->
-  <rect x="500" y="163" width="0" height="2" rx="1" fill="url(#accentGrad)">
-    <animate attributeName="width" from="0" to="320" dur="1s" begin="0.4s" fill="freeze"/>
-    <animate attributeName="x" from="500" to="340" dur="1s" begin="0.4s" fill="freeze"/>
+  <!-- Animated underline that grows from center -->
+  <rect x="500" y="157" width="0" height="1.5" rx="0.75" fill="url(#underline)">
+    <animate attributeName="width" from="0" to="300" dur="1s" begin="0.2s" fill="freeze"/>
+    <animate attributeName="x"     from="500" to="350" dur="1s" begin="0.2s" fill="freeze"/>
   </rect>
 
-  <!-- Status line -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
-    <!-- Green dot -->
-    <circle cx="418" cy="208" r="4" fill="#3fb950">
-      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="430" y="213" font-family="'Segoe UI', 'Inter', sans-serif" font-size="12"
-          fill="#8b949e" letter-spacing="0.5">
-      Open to Opportunities  ·  🍁 Toronto, ON  ·  2+ Years Production
-    </text>
-  </g>
+  <!-- Status line — bigger font (14px), green pulse dot -->
+  <circle cx="368" cy="183" r="4.5" fill="#3fb950">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="r"       values="4.5;5.5;4.5" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="382" y="188"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="14" fill="#8b949e" letter-spacing="0.3">
+    Open to Opportunities  ·  🍁 Toronto, ON  ·  2+ Years Experience
+  </text>
 </svg>
