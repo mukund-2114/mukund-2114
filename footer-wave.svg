@@ -1,0 +1,69 @@
+<svg width="1000" height="120" viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#00d4ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#00ff88" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="wGlow" x="-10%" y="-100%" width="120%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="120" fill="#020408"/>
+
+  <!-- Wave layers -->
+  <path fill="url(#wave1)" filter="url(#wGlow)">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M0,60 C200,30 400,90 600,50 C800,10 900,70 1000,50 L1000,120 L0,120 Z;
+              M0,70 C200,50 400,30 600,70 C800,110 900,40 1000,60 L1000,120 L0,120 Z;
+              M0,60 C200,30 400,90 600,50 C800,10 900,70 1000,50 L1000,120 L0,120 Z"/>
+  </path>
+
+  <path fill="url(#wave2)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,75 C250,45 500,95 750,65 C875,50 950,85 1000,70 L1000,120 L0,120 Z;
+              M0,85 C250,105 500,55 750,85 C875,105 950,65 1000,80 L1000,120 L0,120 Z;
+              M0,75 C250,45 500,95 750,65 C875,50 950,85 1000,70 L1000,120 L0,120 Z"/>
+  </path>
+
+  <!-- Floating particles -->
+  <circle cx="100" cy="40" r="2" fill="#00ff88" opacity="0.6">
+    <animate attributeName="cy" values="40;20;40" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="30" r="2.5" fill="#00d4ff" opacity="0.5">
+    <animate attributeName="cy" values="30;10;30" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="45" r="2" fill="#00ff88" opacity="0.5">
+    <animate attributeName="cy" values="45;25;45" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="20" r="1.5" fill="#00d4ff" opacity="0.4">
+    <animate attributeName="cy" values="20;5;20" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="25" r="1.5" fill="#00ff88" opacity="0.4">
+    <animate attributeName="cy" values="25;8;25" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Horizontal glow line -->
+  <line x1="0" y1="58" x2="1000" y2="58" stroke="#00ff88" stroke-width="0.5" opacity="0.25">
+    <animate attributeName="opacity" values="0.25;0.5;0.25" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Footer text -->
+  <text x="500" y="45" font-family="'Courier New', monospace" font-size="12" text-anchor="middle" fill="#8b949e" letter-spacing="2" opacity="0.7">
+    ⚡ Built with code, coffee, and obsessive iteration  ⚡
+  </text>
+
+  <!-- Scan sweep -->
+  <rect x="0" y="0" width="2" height="120" fill="#00ff88" opacity="0.3">
+    <animate attributeName="x" values="-5;1005" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.3;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

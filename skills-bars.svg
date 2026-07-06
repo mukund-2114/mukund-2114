@@ -1,0 +1,121 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panelbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020408"/>
+      <stop offset="100%" stop-color="#050d0a"/>
+    </linearGradient>
+    <filter id="barGlow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3178c6"/>
+      <stop offset="100%" stop-color="#61dafb"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9900"/>
+      <stop offset="100%" stop-color="#ffcc00"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2496ed"/>
+      <stop offset="100%" stop-color="#61dafb"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e10098"/>
+      <stop offset="100%" stop-color="#ff6ab0"/>
+    </linearGradient>
+    <pattern id="scanPat" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="6" x2="6" y2="0" stroke="#00ff88" stroke-width="0.4" stroke-opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="140" fill="url(#panelbg)"/>
+  <rect width="1000" height="140" fill="url(#scanPat)"/>
+
+  <!-- Row 1 -->
+  <!-- Node.js bar -->
+  <text x="15" y="25" font-family="'Courier New', monospace" font-size="11" fill="#3fb950">Node.js</text>
+  <rect x="15" y="30" width="175" height="8" rx="4" fill="#0a1a0a"/>
+  <rect x="15" y="30" width="0" height="8" rx="4" fill="url(#g1)" filter="url(#barGlow)">
+    <animate attributeName="width" from="0" to="165" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+  </rect>
+  <text x="188" y="40" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">94%</text>
+
+  <!-- TypeScript bar -->
+  <text x="215" y="25" font-family="'Courier New', monospace" font-size="11" fill="#3178c6">TypeScript</text>
+  <rect x="215" y="30" width="175" height="8" rx="4" fill="#0a0a1a"/>
+  <rect x="215" y="30" width="0" height="8" rx="4" fill="url(#g2)" filter="url(#barGlow)">
+    <animate attributeName="width" from="0" to="158" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+  </rect>
+  <text x="398" y="40" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">90%</text>
+
+  <!-- AWS bar -->
+  <text x="420" y="25" font-family="'Courier New', monospace" font-size="11" fill="#ff9900">AWS</text>
+  <rect x="420" y="30" width="175" height="8" rx="4" fill="#1a0f00"/>
+  <rect x="420" y="30" width="0" height="8" rx="4" fill="url(#g3)" filter="url(#barGlow)">
+    <animate attributeName="width" from="0" to="149" dur="1.3s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+  </rect>
+  <text x="603" y="40" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">85%</text>
+
+  <!-- Docker bar -->
+  <text x="625" y="25" font-family="'Courier New', monospace" font-size="11" fill="#2496ed">Docker</text>
+  <rect x="625" y="30" width="175" height="8" rx="4" fill="#00101a"/>
+  <rect x="625" y="30" width="0" height="8" rx="4" fill="url(#g4)" filter="url(#barGlow)">
+    <animate attributeName="width" from="0" to="158" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+  </rect>
+  <text x="808" y="40" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">90%</text>
+
+  <!-- Separator line -->
+  <line x1="15" y1="55" x2="985" y2="55" stroke="#0a2a1a" stroke-width="0.7"/>
+
+  <!-- Row 2 -->
+  <!-- React bar -->
+  <text x="15" y="75" font-family="'Courier New', monospace" font-size="11" fill="#61dafb">React</text>
+  <rect x="15" y="80" width="175" height="8" rx="4" fill="#001010"/>
+  <rect x="15" y="80" width="0" height="8" rx="4" fill="url(#g2)" filter="url(#barGlow)">
+    <animate attributeName="width" from="0" to="167" dur="1.1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+  </rect>
+  <text x="188" y="90" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">95%</text>
+
+  <!-- Next.js bar -->
+  <text x="215" y="75" font-family="'Courier New', monospace" font-size="11" fill="#ffffff">Next.js</text>
+  <rect x="215" y="80" width="175" height="8" rx="4" fill="#0f0f0f"/>
+  <rect x="215" y="80" width="0" height="8" rx="4" fill="#ffffff" filter="url(#barGlow)">
+    <animate attributeName="width" from="0" to="149" dur="1.3s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+  </rect>
+  <text x="398" y="90" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">85%</text>
+
+  <!-- PostgreSQL bar -->
+  <text x="420" y="75" font-family="'Courier New', monospace" font-size="11" fill="#4169e1">PostgreSQL</text>
+  <rect x="420" y="80" width="175" height="8" rx="4" fill="#00061a"/>
+  <rect x="420" y="80" width="0" height="8" rx="4" fill="#4169e1" filter="url(#barGlow)">
+    <animate attributeName="width" from="0" to="140" dur="1.4s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+  </rect>
+  <text x="603" y="90" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">80%</text>
+
+  <!-- GraphQL bar -->
+  <text x="625" y="75" font-family="'Courier New', monospace" font-size="11" fill="#e10098">GraphQL</text>
+  <rect x="625" y="80" width="175" height="8" rx="4" fill="#1a0010"/>
+  <rect x="625" y="80" width="0" height="8" rx="4" fill="url(#g5)" filter="url(#barGlow)">
+    <animate attributeName="width" from="0" to="140" dur="1.2s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.25 0.46 0.45 0.94"/>
+  </rect>
+  <text x="808" y="90" font-family="'Courier New', monospace" font-size="9" fill="#8b949e">80%</text>
+
+  <!-- Bottom scan sweep -->
+  <rect x="0" y="0" width="2" height="140" fill="#00ff88" opacity="0.4">
+    <animate attributeName="x" values="-5;1005" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner decor -->
+  <g stroke="#00ff88" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M 8 12 L 8 4 L 16 4"/>
+    <path d="M 992 12 L 992 4 L 984 4"/>
+    <path d="M 8 128 L 8 136 L 16 136"/>
+    <path d="M 992 128 L 992 136 L 984 136"/>
+  </g>
+</svg>

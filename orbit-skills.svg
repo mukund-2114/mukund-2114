@@ -1,88 +1,228 @@
-<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="coreGlow">
-      <stop offset="0%" stop-color="#3fb950" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    <radialGradient id="bg2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#050d0a"/>
+      <stop offset="100%" stop-color="#020408"/>
     </radialGradient>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+
+    <filter id="glow1" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <style>
-      .lbl { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; fill: #c9d1d9; }
-      .title { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 800; fill: #58a6ff; }
-      .orbit-ring { fill: none; stroke: #30363d; stroke-width: 1; stroke-dasharray: 4 4; }
-    </style>
+
+    <filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Orbit ring gradient -->
+    <linearGradient id="orbitRing1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#00ff88" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#00d4ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="orbitRing2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00d4ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Tech icon base style -->
+    <filter id="iconGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Central core gradient -->
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.3"/>
+      <stop offset="40%" stop-color="#00d4ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#020408" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Section title gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+
+    <pattern id="gridPat" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0a2a1a" stroke-width="0.4"/>
+    </pattern>
   </defs>
 
-  <rect width="900" height="420" fill="#0d1117"/>
-  <text x="30" y="35" class="title">⚙️ Core Stack — Orbit View</text>
+  <!-- Background -->
+  <rect width="1000" height="320" fill="url(#bg2)"/>
+  <rect width="1000" height="320" fill="url(#gridPat)" opacity="0.4"/>
 
-  <!-- Orbit rings -->
-  <circle cx="450" cy="230" r="90" class="orbit-ring"/>
-  <circle cx="450" cy="230" r="150" class="orbit-ring"/>
-  <circle cx="450" cy="230" r="205" class="orbit-ring"/>
+  <!-- ── ORBIT 1 (outermost): 340px radius ── -->
+  <g transform="translate(500,160)">
+    <ellipse cx="0" cy="0" rx="330" ry="90" fill="none" stroke="url(#orbitRing1)" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
 
-  <!-- Core node -->
-  <circle cx="450" cy="230" r="55" fill="url(#coreGlow)" opacity="0.5"/>
-  <circle cx="450" cy="230" r="34" fill="#161b22" stroke="#3fb950" stroke-width="2" filter="url(#glow)"/>
-  <text x="450" y="226" text-anchor="middle" class="lbl" fill="#3fb950" font-size="12">MUKUND</text>
-  <text x="450" y="240" text-anchor="middle" class="lbl" fill="#8b949e" font-size="9">Full-Stack</text>
-
-  <!-- Orbit 1: inner ring, 3 nodes, fast rotation -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 230" to="360 450 230" dur="14s" repeatCount="indefinite"/>
-    <g transform="translate(540,230)">
-      <circle r="22" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
-      <text text-anchor="middle" dy="4" class="lbl" font-size="10" fill="#58a6ff">⚛️</text>
+    <!-- AWS icon on orbit 1 -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+      <g transform="translate(330,0)" filter="url(#iconGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="18s" repeatCount="indefinite"/>
+        <circle r="24" fill="#0d0d00" stroke="#ff9900" stroke-width="1.5"/>
+        <text x="0" y="-6" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#ff9900" font-weight="bold">☁️</text>
+        <text x="0" y="7" font-family="'Courier New', monospace" font-size="9" text-anchor="middle" fill="#ff9900" font-weight="bold">AWS</text>
+      </g>
     </g>
-    <g transform="translate(405,152)">
-      <circle r="22" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
-      <text text-anchor="middle" dy="4" class="lbl" font-size="10" fill="#58a6ff">TS</text>
+
+    <!-- Docker icon on orbit 1 (offset 90 deg) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="90" to="450" dur="18s" repeatCount="indefinite"/>
+      <g transform="translate(330,0)" filter="url(#iconGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="-90" to="-450" dur="18s" repeatCount="indefinite"/>
+        <circle r="24" fill="#001520" stroke="#2496ed" stroke-width="1.5"/>
+        <text x="0" y="-6" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#2496ed">🐋</text>
+        <text x="0" y="7" font-family="'Courier New', monospace" font-size="9" text-anchor="middle" fill="#2496ed" font-weight="bold">Docker</text>
+      </g>
     </g>
-    <g transform="translate(405,308)">
-      <circle r="22" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
-      <text text-anchor="middle" dy="4" class="lbl" font-size="10" fill="#58a6ff">🟢</text>
+
+    <!-- PostgreSQL icon on orbit 1 (offset 180 deg) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="18s" repeatCount="indefinite"/>
+      <g transform="translate(330,0)" filter="url(#iconGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="-180" to="-540" dur="18s" repeatCount="indefinite"/>
+        <circle r="24" fill="#00061a" stroke="#4169e1" stroke-width="1.5"/>
+        <text x="0" y="-6" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#4169e1">🐘</text>
+        <text x="0" y="7" font-family="'Courier New', monospace" font-size="9" text-anchor="middle" fill="#4169e1" font-weight="bold">Postgres</text>
+      </g>
+    </g>
+
+    <!-- CI/CD icon on orbit 1 (offset 270 deg) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="270" to="630" dur="18s" repeatCount="indefinite"/>
+      <g transform="translate(330,0)" filter="url(#iconGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="-270" to="-630" dur="18s" repeatCount="indefinite"/>
+        <circle r="24" fill="#000d20" stroke="#2088ff" stroke-width="1.5"/>
+        <text x="0" y="-6" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#2088ff">⚙️</text>
+        <text x="0" y="7" font-family="'Courier New', monospace" font-size="9" text-anchor="middle" fill="#2088ff" font-weight="bold">CI/CD</text>
+      </g>
     </g>
   </g>
 
-  <!-- Counter-rotating labels for inner ring (keeps text upright) -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 230" to="360 450 230" dur="14s" repeatCount="indefinite"/>
-    <text x="540" y="255" text-anchor="middle" class="lbl" font-size="10">React</text>
-    <text x="405" y="177" text-anchor="middle" class="lbl" font-size="10">TypeScript</text>
-    <text x="405" y="333" text-anchor="middle" class="lbl" font-size="10">Node.js</text>
+  <!-- ── ORBIT 2 (middle): 200px radius ── -->
+  <g transform="translate(500,160)">
+    <ellipse cx="0" cy="0" rx="200" ry="55" fill="none" stroke="url(#orbitRing2)" stroke-width="1" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="12s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- React icon on orbit 2 -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="45" to="-315" dur="12s" repeatCount="indefinite"/>
+      <g transform="translate(200,0)" filter="url(#iconGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="-45" to="315" dur="12s" repeatCount="indefinite"/>
+        <circle r="22" fill="#001010" stroke="#61dafb" stroke-width="1.5"/>
+        <text x="0" y="-5" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#61dafb">⚛️</text>
+        <text x="0" y="7" font-family="'Courier New', monospace" font-size="9" text-anchor="middle" fill="#61dafb" font-weight="bold">React</text>
+      </g>
+    </g>
+
+    <!-- TypeScript icon on orbit 2 (offset 180) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="225" to="-135" dur="12s" repeatCount="indefinite"/>
+      <g transform="translate(200,0)" filter="url(#iconGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="-225" to="135" dur="12s" repeatCount="indefinite"/>
+        <circle r="22" fill="#000a1f" stroke="#3178c6" stroke-width="1.5"/>
+        <text x="0" y="-5" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#3178c6">📘</text>
+        <text x="0" y="7" font-family="'Courier New', monospace" font-size="8.5" text-anchor="middle" fill="#3178c6" font-weight="bold">TypeScript</text>
+      </g>
+    </g>
   </g>
 
-  <!-- Orbit 2: middle ring, 4 nodes -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="360 450 230" to="0 450 230" dur="20s" repeatCount="indefinite"/>
-    <g transform="translate(600,230)"><circle r="20" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="9" fill="#3fb950">▲</text></g>
-    <g transform="translate(450,80)"><circle r="20" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="9" fill="#3fb950">🐳</text></g>
-    <g transform="translate(300,230)"><circle r="20" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="9" fill="#3fb950">☁️</text></g>
-    <g transform="translate(450,380)"><circle r="20" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="9" fill="#3fb950">🐘</text></g>
+  <!-- ── ORBIT 3 (inner): 100px radius ── -->
+  <g transform="translate(500,160)">
+    <ellipse cx="0" cy="0" rx="100" ry="27" fill="none" stroke="#00ff88" stroke-width="0.8" opacity="0.35">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Node.js on inner orbit -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="20" to="380" dur="8s" repeatCount="indefinite"/>
+      <g transform="translate(100,0)" filter="url(#iconGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="-20" to="-380" dur="8s" repeatCount="indefinite"/>
+        <circle r="19" fill="#001500" stroke="#3fb950" stroke-width="1.5"/>
+        <text x="0" y="-4" font-family="'Courier New', monospace" font-size="6" text-anchor="middle" fill="#3fb950">🟩</text>
+        <text x="0" y="6" font-family="'Courier New', monospace" font-size="8" text-anchor="middle" fill="#3fb950" font-weight="bold">Node</text>
+      </g>
+    </g>
+
+    <!-- Next.js on inner orbit (offset 180) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="200" to="560" dur="8s" repeatCount="indefinite"/>
+      <g transform="translate(100,0)" filter="url(#iconGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="-200" to="-560" dur="8s" repeatCount="indefinite"/>
+        <circle r="19" fill="#0f0f0f" stroke="#ffffff" stroke-width="1.5"/>
+        <text x="0" y="-4" font-family="'Courier New', monospace" font-size="6" text-anchor="middle" fill="#ffffff">▲</text>
+        <text x="0" y="7" font-family="'Courier New', monospace" font-size="8" text-anchor="middle" fill="#ffffff" font-weight="bold">Next.js</text>
+      </g>
+    </g>
   </g>
 
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="360 450 230" to="0 450 230" dur="20s" repeatCount="indefinite"/>
-    <text x="600" y="258" text-anchor="middle" class="lbl" font-size="10">Next.js</text>
-    <text x="450" y="108" text-anchor="middle" class="lbl" font-size="10">Docker</text>
-    <text x="300" y="258" text-anchor="middle" class="lbl" font-size="10">AWS</text>
-    <text x="450" y="408" text-anchor="middle" class="lbl" font-size="10">PostgreSQL</text>
+  <!-- Central core glow -->
+  <circle cx="500" cy="160" r="60" fill="url(#coreGrad)">
+    <animate attributeName="r" values="55;65;55" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Core ring -->
+  <circle cx="500" cy="160" r="30" fill="#020408" stroke="#00ff88" stroke-width="2" filter="url(#glow1)">
+    <animate attributeName="r" values="28;32;28" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="1;0.5;1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="160" r="20" fill="#020408" stroke="#00d4ff" stroke-width="1.5">
+    <animate attributeName="r" values="18;22;18" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Core label -->
+  <text x="500" y="154" font-family="'Courier New', monospace" font-size="8" font-weight="bold"
+        text-anchor="middle" fill="#00ff88" filter="url(#glow1)">CORE</text>
+  <text x="500" y="166" font-family="'Courier New', monospace" font-size="7"
+        text-anchor="middle" fill="#00d4ff">STACK</text>
+
+  <!-- GraphQL (floating icon, no orbit) -->
+  <g transform="translate(130,80)" filter="url(#iconGlow)">
+    <circle r="20" fill="#1a0010" stroke="#e10098" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#e10098">◈</text>
+    <text x="0" y="9" font-family="'Courier New', monospace" font-size="8" text-anchor="middle" fill="#e10098" font-weight="bold">GraphQL</text>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite"/>
   </g>
 
-  <!-- Orbit 3: outer ring, 3 nodes -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 230" to="360 450 230" dur="28s" repeatCount="indefinite"/>
-    <g transform="translate(655,230)"><circle r="18" fill="#161b22" stroke="#f85149" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="8" fill="#f85149">⚙️</text></g>
-    <g transform="translate(347,60)"><circle r="18" fill="#161b22" stroke="#f85149" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="8" fill="#f85149">📊</text></g>
-    <g transform="translate(347,400)"><circle r="18" fill="#161b22" stroke="#f85149" stroke-width="2"/><text text-anchor="middle" dy="4" font-size="8" fill="#f85149">🚀</text></g>
+  <!-- Prisma (floating icon) -->
+  <g transform="translate(870,240)" filter="url(#iconGlow)">
+    <circle r="20" fill="#000a1a" stroke="#0c344b" stroke-width="1.5"/>
+    <rect x="-12" y="-12" width="24" height="24" rx="12" fill="none" stroke="#5a67d8" stroke-width="1"/>
+    <text x="0" y="5" font-family="'Courier New', monospace" font-size="9" text-anchor="middle" fill="#5a67d8" font-weight="bold">Prisma</text>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite"/>
   </g>
 
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 230" to="360 450 230" dur="28s" repeatCount="indefinite"/>
-    <text x="655" y="256" text-anchor="middle" class="lbl" font-size="9">CI/CD</text>
-    <text x="347" y="86" text-anchor="middle" class="lbl" font-size="9">GraphQL</text>
-    <text x="347" y="426" text-anchor="middle" class="lbl" font-size="9">Cloudflare</text>
+  <!-- Cloudflare (floating icon) -->
+  <g transform="translate(870,80)" filter="url(#iconGlow)">
+    <circle r="20" fill="#0a0800" stroke="#f6821f" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#f6821f">☁</text>
+    <text x="0" y="9" font-family="'Courier New', monospace" font-size="7.5" text-anchor="middle" fill="#f6821f" font-weight="bold">Cloudflare</text>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2.8s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Tailwind (floating icon) -->
+  <g transform="translate(130,240)" filter="url(#iconGlow)">
+    <circle r="20" fill="#000d14" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="0" y="-3" font-family="'Courier New', monospace" font-size="7" text-anchor="middle" fill="#38bdf8">🌊</text>
+    <text x="0" y="9" font-family="'Courier New', monospace" font-size="7.5" text-anchor="middle" fill="#38bdf8" font-weight="bold">Tailwind</text>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Corner brackets -->
+  <g stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.5">
+    <path d="M 15 20 L 15 8 L 27 8"/>
+    <path d="M 985 20 L 985 8 L 973 8"/>
+    <path d="M 15 300 L 15 312 L 27 312"/>
+    <path d="M 985 300 L 985 312 L 973 312"/>
   </g>
 </svg>
