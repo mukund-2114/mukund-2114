@@ -1,0 +1,169 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap');
+      
+      .timeline-line {
+        stroke: #3fb950;
+        stroke-width: 3;
+        fill: none;
+        animation: draw-line 3s ease-out forwards;
+      }
+      
+      @keyframes draw-line {
+        from {
+          stroke-dasharray: 500;
+          stroke-dashoffset: 500;
+        }
+        to {
+          stroke-dasharray: 500;
+          stroke-dashoffset: 0;
+        }
+      }
+      
+      .timeline-dot {
+        fill: #3fb950;
+        animation: pulse-dot 2s ease-in-out infinite;
+      }
+      
+      .timeline-dot-1 { animation-delay: 0s; }
+      .timeline-dot-2 { animation-delay: 0.5s; }
+      .timeline-dot-3 { animation-delay: 1s; }
+      
+      @keyframes pulse-dot {
+        0%, 100% {
+          r: 8;
+          fill: #3fb950;
+          filter: drop-shadow(0 0 0px #3fb950);
+        }
+        50% {
+          r: 12;
+          fill: #58a6ff;
+          filter: drop-shadow(0 0 10px #58a6ff);
+        }
+      }
+      
+      .card-bg {
+        fill: #161b22;
+        rx: 8;
+      }
+      
+      .card-border {
+        stroke: #30363d;
+        stroke-width: 2;
+        fill: none;
+        rx: 8;
+      }
+      
+      .card-border:hover {
+        stroke: #3fb950;
+      }
+      
+      .card-title {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 16px;
+        font-weight: 600;
+        fill: #3fb950;
+      }
+      
+      .card-company {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 13px;
+        fill: #58a6ff;
+        font-weight: 600;
+      }
+      
+      .card-date {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
+        fill: #8b949e;
+      }
+      
+      .card-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
+        fill: #c9d1d9;
+      }
+      
+      .experience-card {
+        animation: slide-in-card 0.6s ease-out forwards;
+      }
+      
+      .exp-1 { animation-delay: 1.5s; }
+      .exp-2 { animation-delay: 2s; }
+      .exp-3 { animation-delay: 2.5s; }
+      
+      @keyframes slide-in-card {
+        from {
+          opacity: 0;
+          transform: translateX(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .section-title {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 18px;
+        font-weight: 800;
+        fill: #58a6ff;
+        filter: drop-shadow(0 0 5px #58a6ff);
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0d1117"/>
+  
+  <!-- Title -->
+  <text x="40" y="40" class="section-title">💼 Experience Timeline</text>
+  
+  <!-- Timeline line -->
+  <line x1="100" y1="80" x2="100" y2="380" class="timeline-line"/>
+  
+  <!-- Dot 1 -->
+  <circle cx="100" cy="100" class="timeline-dot timeline-dot-1"/>
+  
+  <!-- Card 1 -->
+  <g class="experience-card exp-1">
+    <rect x="140" y="80" width="600" height="100" class="card-bg"/>
+    <rect x="140" y="80" width="600" height="100" class="card-border"/>
+    
+    <text x="160" y="105" class="card-title">Full Stack Developer</text>
+    <text x="160" y="125" class="card-company">Community of Guardians</text>
+    <text x="160" y="140" class="card-date">Mar 2025 – Present | Remote, Toronto</text>
+    
+    <text x="160" y="160" class="card-text">🔥 Eliminated egress fees • 🤖 AI moderation pipeline • 🚀 CI/CD + Docker</text>
+    <text x="160" y="175" class="card-text">⚡ 40% latency reduction • 🎨 Server-driven UI architecture</text>
+  </g>
+  
+  <!-- Dot 2 -->
+  <circle cx="100" cy="210" class="timeline-dot timeline-dot-2"/>
+  
+  <!-- Card 2 -->
+  <g class="experience-card exp-2">
+    <rect x="140" y="190" width="600" height="90" class="card-bg"/>
+    <rect x="140" y="190" width="600" height="90" class="card-border"/>
+    
+    <text x="160" y="215" class="card-title">React Developer</text>
+    <text x="160" y="235" class="card-company">Brainy Beam Infotech</text>
+    <text x="160" y="250" class="card-date">Oct 2022 – Jan 2024 | Ahmedabad, India</text>
+    
+    <text x="160" y="270" class="card-text">🎯 10 production web apps • 👨‍🏫 Mentored 100+ students</text>
+  </g>
+  
+  <!-- Dot 3 -->
+  <circle cx="100" cy="320" class="timeline-dot timeline-dot-3"/>
+  
+  <!-- Card 3 -->
+  <g class="experience-card exp-3">
+    <rect x="140" y="300" width="600" height="65" class="card-bg"/>
+    <rect x="140" y="300" width="600" height="65" class="card-border"/>
+    
+    <text x="160" y="325" class="card-title">Education</text>
+    <text x="160" y="345" class="card-date">📱 Mobile App Development & 💻 Software Engineering Technician</text>
+    <text x="160" y="360" class="card-text">Centennial College, Toronto | 4.4/4.5 & 4.27/4.5 GPA</text>
+  </g>
+</svg>
