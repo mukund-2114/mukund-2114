@@ -118,12 +118,12 @@ const mukund = {
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=58a6ff&text_color=8b949e&count_private=true&include_all_commits=true"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=8b949e&langs_count=8"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=mukund-2114&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=58a6ff&text_color=8b949e&count_private=true&include_all_commits=true"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukund-2114&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=8b949e&langs_count=8"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=github-dark-blue&hide_border=true&background=0d1117&ring=3fb950&fire=58a6ff&currStreakLabel=3fb950" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mukund-2114&theme=github-dark-blue&hide_border=true&background=0d1117&ring=3fb950&fire=58a6ff&currStreakLabel=3fb950" width="48%"/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=USERNAME&bg_color=0d1117&color=3fb950&line=58a6ff&point=3fb950&area=true&hide_border=true&area_color=3fb95030&title_color=3fb950"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mukund-2114&bg_color=0d1117&color=3fb950&line=58a6ff&point=3fb950&area=true&hide_border=true&area_color=3fb95030&title_color=3fb950"/>
 
 </div>
 
